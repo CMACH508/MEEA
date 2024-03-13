@@ -1,7 +1,8 @@
 # Efficient retrosynthetic planning with MCTS exploration enhanced A* search
 
 This is open-source codebase for MEEA*-PC (https://www.nature.com/articles/s42004-024-01133-2). MEEA* is proposed to incorporate the exploratory behavior of MCTS into A* by providing a look-ahead search. Path consistency is adopted as a regularization to improve the generalization performance of heuristics. Details about the search algorithm is summarized in the following figure.
-![avatar](./figs/MEEA.png)
+<img src="./figs/MEEA.png" alt="graph_3_1_1=100x20" style="zoom:80%;" />
+
 Extensive experimental results on $10$ molecule datasets demonstrate the effectiveness of MEEA*. Moreover, for natural products, MEEA*-PC successfully identifies bio-retrosynthetic pathways for $97.68\%$ test compounds. Experiment results on each dataset is summarized in the following table:
 |Dataset|Success Rate|Dataset|Success Rate|
 |:-:|:-:|:-:|:-:|
@@ -56,6 +57,9 @@ If you find this repo useful, please cite our paper:
 ## Acknowledgement
 
 We appreciate the following github repos greatly for their valuable code base implementations:
+
 <https://github.com/binghong-ml/retro_star>
+
 <https://github.com/junsu-kim97/self_improved_retro>
+
 <https://github.com/prokia/BioNavi-NP>
